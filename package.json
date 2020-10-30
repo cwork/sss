@@ -2,10 +2,10 @@
   "name": "sss",
   "version": "1.0.0",
   "description": "Super Simple Server - Express setup",
-  "main": "./src/www/index.js",
+  "main": "./src/server/index.js",
   "scripts": {
-    "dev": "nodemon ./src/www/server.js",
-    "start": "NODE_ENV=production node ./src/www/server.js"
+    "dev": "nodemon ./src/server/index.js",
+    "start": "NODE_ENV=production node ./src/server/index.js"
   },
   "keywords": [],
   "author": "",
